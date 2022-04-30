@@ -1,0 +1,154 @@
+{
+	"info": {
+		"_postman_id": "56feb7e6-4dfc-414b-b696-dc0cdda4a2c9",
+		"name": "Angle Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Default obtuso",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/angle?x=-5&y=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"angle"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "-5"
+						},
+						{
+							"key": "y",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Origen",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/angle?x=0&y=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"angle"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "0"
+						},
+						{
+							"key": "y",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "No en el plano superior",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/angle?x=5&y=-1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"angle"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "5"
+						},
+						{
+							"key": "y",
+							"value": "-1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Recto",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/angle?x=0&y=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"angle"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "0"
+						},
+						{
+							"key": "y",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Agudo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/angle?x=5&y=1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"angle"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "5"
+						},
+						{
+							"key": "y",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
